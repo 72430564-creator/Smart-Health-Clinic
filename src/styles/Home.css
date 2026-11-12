@@ -1,0 +1,339 @@
+.home {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.btn-primary:hover {
+  transform: translateX(8px);
+  transition: 0.3s;
+}
+.home h1{
+    color: #2878A5;
+}
+.home-title{
+  white-space: nowrap;
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+.specialists-section{
+    padding: 60px 20px;
+    text-align: center;
+    background: #f5f9ff;
+}
+.specialists-section h2{
+    font-size: 32px;
+    color: #1e3a8a;
+    margin-bottom: 35px;
+}
+.specialists-description{
+    color: #64748b;
+    margin-bottom: 35px;
+}
+.specialists-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.specialists-card{
+    background: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgb(0,0,0,0.06);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+.specialists-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.specialists-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(37,99,235,0.18);
+}
+.specialists-card h3{
+    color: #2563eb;
+    margin: 15px 0 8px;
+}
+.specialists-card p1{
+    color: #64748b;
+}
+.special-card .doctor-specialty {
+  color: black !important;
+}
+
+.special-card .working-hours {
+  color: black !important;
+}
+
+.why-choose-section{
+    padding: 70px 25px;
+    text-align: center;
+    background: linear-gradient(
+        135deg,
+        #f0f7ff,
+        #ffffff
+    );
+}
+.why-choose-section h2{
+    font-size: 32px;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+.why-choose-description {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    color: #4A90C2;
+    line-height: 1.7;
+}
+.why-choose-container{
+    display: grid;
+    grid-template-columns: repeat(2,220px);
+    justify-content: center;
+    gap: 20px;
+    
+}
+.why-card{
+    background: #ffffff;
+   max-width: 220px;
+   min-height: 180px;
+    text-align: center;
+    padding: 20px 15px ;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(30,58,138,0.07);
+    border: 1px solid #e5efff;
+    transition: transform 0.3s ease,
+                 box-shadow 0.3s ease,
+                 border-color 0.3s ease;
+    box-sizing: border-box;    
+    margin: auto;     
+    border: 1px solid #B7D9F0;      
+}
+.why-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 14px 28px rgba(37,99,235,0.15);
+    border-color: #93c5fd;
+}
+.why-icon{
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+.why-card h3{
+    color: #2563eb;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+.why-card p{
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.reviews-section{
+    padding: 80px 8%;
+    text-align: center;
+    background: #f5f9ff;
+}
+.reviews-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 15px;
+}
+.reviews-label p {
+    color: #65a9e8;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0;
+}
+.reviews-label span {
+    display: block;
+    width: 45px;
+    height: 2px;
+    background: #a8d2f5;
+    border-radius: 5px;
+}
+.reviews-section h2{
+    font-size: 36px;
+    color: #173b65;
+    margin:  0 0 12px;
+    font-weight: 700;
+}
+.reviews-subtitle{
+    color: #6b7c93;
+    font-size: 16px;
+    margin-bottom: 45px;
+    line-height: 1.7;
+}
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.reviews-card{
+    position: relative;
+    background: #ffffff;
+    padding: 35px 25px;
+    border-radius: 18px;
+    max-width: 320px;
+    box-sizing: border-box;
+    border: 1px solid #e8eff8;
+    box-shadow: 0 8px 25px rgba(23,59,101,0,07);
+}
+.reviews-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(23,59,101,0.14);
+    background-color: #a8d2f5;
+}
+.stars{
+    color: #ffb703;
+    font-size: 23px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.reviews-card h3{
+    color: #173b65;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 8px;
+}
+.reviews-card span{
+    color: #168aad;
+    font-size: 14px;
+}
+@media(max-width:768px){
+.reviews-section{
+    padding: 60px 5%;
+}
+.reviews-section h2{
+font-size: 28px;
+}
+.reviews-container {
+    flex-direction: column;
+    align-items: center;
+}
+.reviews-card{
+    width: 100%;
+    max-width: 400px;
+    flex: none;
+}
+}
+.reviews-author img{
+width: 55px;
+height: 55px;
+border-radius: 50%;
+object-fit: cover;
+border: 3px solid #dceeff;
+}
+.navbar .nav-link {
+    transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #4A90C2;
+    border-bottom: 2px solid #B7D9F0;
+}
+.navbar .nav-link {
+    color: #4A90C2;
+    transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #4A90C2;
+    text-shadow: 0 0 8px rgba(74, 144, 194, 0.4);
+}
+/* Home Responsive Design */
+
+@media screen and (max-width: 768px) {
+
+  /* Hero Section */
+  .home {
+    min-height: 75vh;
+    padding: 30px 15px;
+    background-position: center;
+  }
+
+  .home-title {
+    white-space: normal;
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .home .text-start {
+    text-align: center !important;
+  }
+
+  /* Meet Our Specialists */
+  .specialists-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+  }
+
+  .specialists-card {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .specialists-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  /* Why Choose Us */
+  .why-choose-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+  }
+
+  .why-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+}
+
+/* Small Mobile Screens */
+
+@media screen and (max-width: 480px) {
+
+  .home-title {
+    font-size: 24px;
+  }
+
+  .specialists-container {
+    grid-template-columns: 1fr;
+  }
+
+  .specialists-card {
+    max-width: 320px;
+    margin: auto;
+  }
+
+  .why-choose-container {
+    grid-template-columns: 1fr;
+  }
+
+  .why-card {
+    max-width: 320px;
+  }
+
+  .specialists-section h2,
+  .why-choose-section h2,
+  .reviews-section h2 {
+    font-size: 24px;
+  }
+
+}

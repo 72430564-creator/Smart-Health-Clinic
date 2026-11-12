@@ -1,0 +1,236 @@
+.about-page {
+  background-color: #ffffff;
+  color: #12345b;
+}
+
+/* Hero */
+.about-hero {
+  min-height: 260px;
+  background:
+    linear-gradient(rgba(220, 240, 255, 0.75), rgba(220, 240, 255, 0.75)),
+    url('../assets/clinic.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #063b78;
+  margin-bottom: 5px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  color: #12345b;
+  border-bottom: 2px solid #168ad8;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Who We Are */
+.who-section {
+  padding: 55px 15px 30px;
+}
+
+.who-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.who-section h2 {
+  color: #073b78;
+  font-weight: 700;
+  border-bottom: 3px solid #168ad8;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.who-section p {
+  line-height: 1.8;
+  color: #45627d;
+}
+
+/* Mission & Vision */
+.mission-section {
+  padding: 20px 15px;
+}
+
+.info-card {
+  background: #eef7ff;
+  border-radius: 15px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+}
+
+.card-icon {
+  font-size: 40px;
+  min-width: 55px;
+}
+
+.info-card h3 {
+  color: #073b78;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.info-card p {
+  color: #45627d;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Values */
+.values-section {
+  padding: 35px 15px;
+}
+
+.section-title {
+  text-align: center;
+  color: #073b78;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.value {
+  border-right: 1px solid #b9d8ef;
+}
+
+.value:last-child {
+  border-right: none;
+}
+
+.value-icon {
+  width: 55px;
+  height: 55px;
+  margin: auto;
+  border-radius: 50%;
+  background: #e7f4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.value h5 {
+  margin-top: 10px;
+  color: #12345b;
+  font-weight: 600;
+}
+
+/* Bottom Section */
+.health-section {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: #e3f3ff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.doctor-image {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.health-section h2 {
+  color: #073b78;
+  font-weight: 700;
+}
+
+.health-section p {
+  color: #45627d;
+}
+
+.appointment-btn {
+  background-color: #063b78;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.appointment-btn:hover {
+  background-color: #168ad8;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 40px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .who-section {
+    text-align: center;
+  }
+
+  .who-image {
+    margin-bottom: 25px;
+  }
+
+  .value {
+    margin-bottom: 25px;
+    border-right: none;
+  }
+
+  .health-section {
+    text-align: center;
+  }
+  
+}
+
+/* About Page Responsive Fix */
+
+.about-page,
+.about-page * {
+  box-sizing: border-box;
+}
+
+.about-page img {
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .who-section,
+  .mission-section,
+  .values-section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .health-section h2 {
+    font-size: 24px;
+  }
+
+  .appointment-button {
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+    white-space: normal;
+  }
+
+}
+.about-page {
+  max-width: 100%;
+  overflow-x: clip;
+}

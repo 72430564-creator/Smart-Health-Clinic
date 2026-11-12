@@ -1,0 +1,13 @@
+.contact-form input,
+.contact-form textarea {
+    border: 1.5px solid #4A90C2;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border: 1.5px solid #4A90C2;
+    box-shadow: 0 0 8px rgba(74, 144, 194, 0.25);
+    outline: none;
+}

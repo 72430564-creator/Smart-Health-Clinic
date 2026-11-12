@@ -1,0 +1,27 @@
+.bg-primary {
+    background-color: #5B8DB8 !important ;
+    color: white;
+}
+footer {
+    background-color: #4A90C2;
+    color: white;
+}
+.footer-section a,
+.footer-section a:visited,
+.footer-section a:hover,
+.footer-section a:focus {
+    color: white !important;
+    text-decoration: none;
+}
+.footer-link {
+    color: whitesmoke !important;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #DCEEF8 !important;
+}
+.footer-section a {
+  color: #7DA7D9 !important;
+  text-decoration: none;
+}

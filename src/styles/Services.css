@@ -1,0 +1,108 @@
+.services-page {
+  background-color: #f4fbfa;
+  padding: 60px 0;
+  min-height: 100vh;
+}
+
+/* Services Header */
+.services-header {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 0 15px;
+}
+
+.services-header h1 {
+  color: #7DA7D9;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.services-header p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Service Cards */
+.service-card {
+  background-color: white;
+  padding: 35px 25px;
+  border-radius: 18px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  transition: 0.3s ease;
+  border-bottom: 4px solid #7DA7D9;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.service-card h3 {
+  color: #168b83;
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .services-page {
+    padding: 40px 0;
+  }
+
+  .services-header h1 {
+    font-size: 30px;
+  }
+
+  .services-header p {
+    font-size: 14px;
+  }
+
+  .service-card {
+    padding: 25px 20px;
+  }
+}
+/* Additional Responsive Fix */
+
+.services-page {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.services-page *,
+.services-page *::before,
+.services-page *::after {
+  box-sizing: border-box;
+}
+
+.service-card {
+  width: 100%;
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 480px) {
+  .services-header h1 {
+    font-size: 26px;
+  }
+
+  .service-card {
+    padding: 22px 15px;
+  }
+
+  .service-card h3 {
+    font-size: 19px;
+  }
+}
