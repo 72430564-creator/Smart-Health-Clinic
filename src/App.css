@@ -32,6 +32,15 @@
   from {
     transform: rotate(0deg);
   }
+  html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
   to {
     transform: rotate(360deg);
   }
